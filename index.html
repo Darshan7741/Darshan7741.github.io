@@ -152,8 +152,8 @@ nav.scrolled{padding:.7rem 4rem;background:rgba(5,8,22,.95)}
 .ti-role{font-size:1.05rem;font-weight:700;color:var(--bright);margin-bottom:.18rem}
 .ti-org{color:var(--cyan);font-size:.8rem;font-family:var(--mono);letter-spacing:.04em;margin-bottom:1rem}
 .ti-ul{list-style:none}
-.ti-ul li{font-size:.83rem;color:var(--txt);line-height:1.78;padding-left:1.1rem;position:relative;margin-bottom:.28rem;font-weight:300}
-.ti-ul li::before{content:'▹';position:absolute;left:0;color:var(--green);font-size:.72rem;top:.06rem}
+.ti-ul li{font-size:.83rem;color:var(--txt);line-height:1.78;padding-left:1.4rem;position:relative;margin-bottom:.28rem;font-weight:300}
+.ti-ul li::before{display:none}.ti-ul li{padding-left:0}
 
 /* EDUCATION */
 .edu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.3rem}
@@ -331,97 +331,44 @@ footer{border-top:1px solid rgba(255,255,255,.04);background:rgba(5,8,22,.85);ba
 </section>
 
 <!-- EXPERIENCE -->
-<!-- EXPERIENCE -->
 <section id="experience" class="sec exp-bg">
 <div class="sec-inner">
-
   <p class="sec-eye reveal">Work History</p>
-  <h2 class="sec-h2 reveal">
-    Professional <em>Experience.</em>
-  </h2>
-
+  <h2 class="sec-h2 reveal">Professional <em>Experience.</em></h2>
   <div class="timeline">
-
-    <!-- EXPERIENCE 1 -->
     <div class="ti reveal">
       <div class="ti-card">
-
-        <div class="ti-meta">
-          <span class="ti-date">2023 – 2024</span>
-          <span class="ti-badge remote">Remote</span>
-        </div>
-
-        <div class="ti-role">
-          Penetration Tester Intern
-        </div>
-
-        <div class="ti-org">
-          Virtually Testing Foundation
-        </div>
-
-        <ul class="ti-ul">
-          <li>
-            Performed web application and network penetration testing in collaborative remote environments
-          </li>
-
-          <li>
-            Identified, exploited, and documented vulnerabilities across scoped client targets
-          </li>
-
-          <li>
-            Produced professional penetration testing reports with remediation guidance
-          </li>
-
-          <li>
-            Collaborated with international security professionals on real-world engagements
-          </li>
+        <div class="ti-meta"><span class="ti-date">2023 &ndash; 2024</span><span class="ti-badge remote">Remote</span></div>
+        <div class="ti-role">Penetration Tester Intern</div>
+        <div class="ti-org">Virtually Testing Foundation</div>
+        <ul class="ti-ul" style="list-style:none">
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Performed web application and network penetration tests in a remote collaborative environment</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Identified, exploited, and documented vulnerabilities across client-scoped targets</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Produced professional penetration testing reports with actionable remediation guidance</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Collaborated with international security professionals on real-world engagements</li>
         </ul>
-
       </div>
     </div>
-
-    <!-- EXPERIENCE 2 -->
     <div class="ti reveal">
       <div class="ti-card">
-
-        <div class="ti-meta">
-          <span class="ti-date">2022 – 2023</span>
-          <span class="ti-badge onsite">
-            On-site · Gurugram, India
-          </span>
-        </div>
-
-        <div class="ti-role">
-          Cyber Security Intern
-        </div>
-
-        <div class="ti-org">
-          Gurugram Police Cyber Security Unit
-        </div>
-
-        <ul class="ti-ul">
-
-          <li>
-            Assisted law enforcement cyber unit with threat analysis and digital investigation support
-          </li>
-
-          <li>
-            Applied OSINT techniques for intelligence gathering in active cybercrime cases
-          </li>
-
-          <li>
-            Worked alongside senior analysts on vulnerability assessments and incident response
-          </li>
-
-          <li>
-            Gained exposure to cybercrime investigation workflows and legal operations
-          </li>
-
+        <div class="ti-meta"><span class="ti-date">2022 &ndash; 2023</span><span class="ti-badge onsite">On-site &middot; Gurugram, India</span></div>
+        <div class="ti-role">Cyber Security Intern</div>
+        <div class="ti-org">Gurugram Police Cyber Security Unit</div>
+        <ul class="ti-ul" style="list-style:none">
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Assisted law enforcement cyber unit with threat analysis and digital investigation support</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Applied OSINT techniques for intelligence gathering in active cyber cases</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Worked alongside senior analysts on vulnerability assessments and incident response</li>
+          <li><span style="color:#00ff88;margin-right:.5rem;font-size:.75rem">&#9658;</span>Gained insight into cybercrime investigation workflows and legal operations</li>
         </ul>
-
       </div>
     </div>
-
+  </div>
+  <p class="sec-eye reveal" style="margin-top:5rem">Education</p>
+  <h2 class="sec-h2 reveal" style="margin-bottom:2.5rem">Academic <em>Background.</em></h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal"><div class="edu-icon">&#127891;</div><div class="edu-deg">MSc Computer Science</div><div class="edu-school">Ravensbourne University London</div><div class="edu-yr">2023 &ndash; 2024 &middot; London, UK</div><div class="edu-line"></div></div>
+    <div class="edu-card reveal"><div class="edu-icon">&#128274;</div><div class="edu-deg">PG Diploma in Cybersecurity</div><div class="edu-school">LSBF Singapore</div><div class="edu-yr">Singapore</div><div class="edu-line"></div></div>
+    <div class="edu-card reveal"><div class="edu-icon">&#128218;</div><div class="edu-deg">Bachelor of Business Administration</div><div class="edu-school">V.B. Shah Institute</div><div class="edu-yr">Surat, India</div><div class="edu-line"></div></div>
   </div>
 </div>
 </section>
